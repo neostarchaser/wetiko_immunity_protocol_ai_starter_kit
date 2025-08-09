@@ -1,0 +1,18 @@
+{
+  "version": "0.1",
+  "thresholds": {
+    "EF": 0.3,
+    "PI": 0.25,
+    "DR": 0.25,
+    "AF": 0.25,
+    "RG": 0.25
+  },
+  "actions": {
+    "on_threshold_breach": "enter_safeguard_mode",
+    "retries": 2,
+    "max_refactor_attempts": 2
+  },
+  "context": {
+    "vulnerable_groups_hint": true
+  }
+}
